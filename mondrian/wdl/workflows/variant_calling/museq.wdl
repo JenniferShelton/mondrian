@@ -2,7 +2,6 @@ version development
 
 import "https://raw.githubusercontent.com/mondrian-scwgs/mondrian/dev/mondrian/wdl/tasks/variant_calling/museq.wdl" as museq
 import "https://raw.githubusercontent.com/mondrian-scwgs/mondrian/dev/mondrian/wdl/tasks/io/fastq/pysam.wdl" as pysam
-import "https://raw.githubusercontent.com/mondrian-scwgs/mondrian/dev/mondrian/wdl/tasks/parallel/parallel.wdl" as parallel
 import "https://raw.githubusercontent.com/mondrian-scwgs/mondrian/dev/mondrian/wdl/tasks/io/vcf/bcftools.wdl" as bcftools
 import "https://raw.githubusercontent.com/mondrian-scwgs/mondrian/dev/mondrian/wdl/tasks/io/vcf/utils.wdl" as utils
 
